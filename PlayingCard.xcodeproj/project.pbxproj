@@ -15,6 +15,7 @@
 		D208D5C320F50A9600CD676C /* PlayingCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208D5C220F50A9600CD676C /* PlayingCardTests.swift */; };
 		D208D5CE20F50A9600CD676C /* PlayingCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208D5CD20F50A9600CD676C /* PlayingCardUITests.swift */; };
 		D208D5DC20F50C2500CD676C /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208D5DB20F50C2500CD676C /* PlayingCard.swift */; };
+		D280F20020FA0920007525E2 /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D280F1FF20FA0920007525E2 /* PlayingCardView.swift */; };
 		D2E95CD220F572D800841B10 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E95CD120F572D800841B10 /* PlayingCardDeck.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +51,7 @@
 		D208D5CD20F50A9600CD676C /* PlayingCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardUITests.swift; sourceTree = "<group>"; };
 		D208D5CF20F50A9600CD676C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D208D5DB20F50C2500CD676C /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		D280F1FF20FA0920007525E2 /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
 		D2E95CD120F572D800841B10 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 				D208D5AF20F50A9000CD676C /* ViewController.swift */,
 				D2E95CD120F572D800841B10 /* PlayingCardDeck.swift */,
 				D208D5DB20F50C2500CD676C /* PlayingCard.swift */,
+				D280F1FF20FA0920007525E2 /* PlayingCardView.swift */,
 				D208D5B120F50A9000CD676C /* Main.storyboard */,
 				D208D5B420F50A9500CD676C /* Assets.xcassets */,
 				D208D5B620F50A9600CD676C /* LaunchScreen.storyboard */,
@@ -265,6 +268,7 @@
 				D208D5B020F50A9000CD676C /* ViewController.swift in Sources */,
 				D2E95CD220F572D800841B10 /* PlayingCardDeck.swift in Sources */,
 				D208D5DC20F50C2500CD676C /* PlayingCard.swift in Sources */,
+				D280F20020FA0920007525E2 /* PlayingCardView.swift in Sources */,
 				D208D5AE20F50A9000CD676C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
