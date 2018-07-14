@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D208D5AE20F50A9000CD676C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208D5AD20F50A9000CD676C /* AppDelegate.swift */; };
+		D208D5B020F50A9000CD676C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208D5AF20F50A9000CD676C /* ViewController.swift */; };
+		D208D5B320F50A9000CD676C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D208D5B120F50A9000CD676C /* Main.storyboard */; };
+		D208D5B520F50A9500CD676C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D208D5B420F50A9500CD676C /* Assets.xcassets */; };
+		D208D5B820F50A9600CD676C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D208D5B620F50A9600CD676C /* LaunchScreen.storyboard */; };
+		D208D5C320F50A9600CD676C /* PlayingCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208D5C220F50A9600CD676C /* PlayingCardTests.swift */; };
+		D208D5CE20F50A9600CD676C /* PlayingCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208D5CD20F50A9600CD676C /* PlayingCardUITests.swift */; };
+		D208D5DC20F50C2500CD676C /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D208D5DB20F50C2500CD676C /* PlayingCard.swift */; };
+		D2E95CD220F572D800841B10 /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2E95CD120F572D800841B10 /* PlayingCardDeck.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D208D5BF20F50A9600CD676C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D208D5A220F50A9000CD676C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D208D5A920F50A9000CD676C;
+			remoteInfo = PlayingCard;
+		};
+		D208D5CA20F50A9600CD676C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D208D5A220F50A9000CD676C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D208D5A920F50A9000CD676C;
+			remoteInfo = PlayingCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D208D5AA20F50A9000CD676C /* PlayingCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayingCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D208D5AD20F50A9000CD676C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D208D5AF20F50A9000CD676C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D208D5B220F50A9000CD676C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D208D5B420F50A9500CD676C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D208D5B720F50A9600CD676C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D208D5B920F50A9600CD676C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D208D5BE20F50A9600CD676C /* PlayingCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D208D5C220F50A9600CD676C /* PlayingCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardTests.swift; sourceTree = "<group>"; };
+		D208D5C420F50A9600CD676C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D208D5C920F50A9600CD676C /* PlayingCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayingCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D208D5CD20F50A9600CD676C /* PlayingCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardUITests.swift; sourceTree = "<group>"; };
+		D208D5CF20F50A9600CD676C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D208D5DB20F50C2500CD676C /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
+		D2E95CD120F572D800841B10 /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D208D5A720F50A9000CD676C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D208D5BB20F50A9600CD676C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D208D5C620F50A9600CD676C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D208D5A120F50A9000CD676C = {
+			isa = PBXGroup;
+			children = (
+				D208D5AC20F50A9000CD676C /* PlayingCard */,
+				D208D5C120F50A9600CD676C /* PlayingCardTests */,
+				D208D5CC20F50A9600CD676C /* PlayingCardUITests */,
+				D208D5AB20F50A9000CD676C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D208D5AB20F50A9000CD676C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D208D5AA20F50A9000CD676C /* PlayingCard.app */,
+				D208D5BE20F50A9600CD676C /* PlayingCardTests.xctest */,
+				D208D5C920F50A9600CD676C /* PlayingCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D208D5AC20F50A9000CD676C /* PlayingCard */ = {
+			isa = PBXGroup;
+			children = (
+				D208D5AD20F50A9000CD676C /* AppDelegate.swift */,
+				D208D5AF20F50A9000CD676C /* ViewController.swift */,
+				D2E95CD120F572D800841B10 /* PlayingCardDeck.swift */,
+				D208D5DB20F50C2500CD676C /* PlayingCard.swift */,
+				D208D5B120F50A9000CD676C /* Main.storyboard */,
+				D208D5B420F50A9500CD676C /* Assets.xcassets */,
+				D208D5B620F50A9600CD676C /* LaunchScreen.storyboard */,
+				D208D5B920F50A9600CD676C /* Info.plist */,
+			);
+			path = PlayingCard;
+			sourceTree = "<group>";
+		};
+		D208D5C120F50A9600CD676C /* PlayingCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				D208D5C220F50A9600CD676C /* PlayingCardTests.swift */,
+				D208D5C420F50A9600CD676C /* Info.plist */,
+			);
+			path = PlayingCardTests;
+			sourceTree = "<group>";
+		};
+		D208D5CC20F50A9600CD676C /* PlayingCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D208D5CD20F50A9600CD676C /* PlayingCardUITests.swift */,
+				D208D5CF20F50A9600CD676C /* Info.plist */,
+			);
+			path = PlayingCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D208D5A920F50A9000CD676C /* PlayingCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D208D5D220F50A9600CD676C /* Build configuration list for PBXNativeTarget "PlayingCard" */;
+			buildPhases = (
+				D208D5A620F50A9000CD676C /* Sources */,
+				D208D5A720F50A9000CD676C /* Frameworks */,
+				D208D5A820F50A9000CD676C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlayingCard;
+			productName = PlayingCard;
+			productReference = D208D5AA20F50A9000CD676C /* PlayingCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D208D5BD20F50A9600CD676C /* PlayingCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D208D5D520F50A9600CD676C /* Build configuration list for PBXNativeTarget "PlayingCardTests" */;
+			buildPhases = (
+				D208D5BA20F50A9600CD676C /* Sources */,
+				D208D5BB20F50A9600CD676C /* Frameworks */,
+				D208D5BC20F50A9600CD676C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D208D5C020F50A9600CD676C /* PBXTargetDependency */,
+			);
+			name = PlayingCardTests;
+			productName = PlayingCardTests;
+			productReference = D208D5BE20F50A9600CD676C /* PlayingCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D208D5C820F50A9600CD676C /* PlayingCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D208D5D820F50A9600CD676C /* Build configuration list for PBXNativeTarget "PlayingCardUITests" */;
+			buildPhases = (
+				D208D5C520F50A9600CD676C /* Sources */,
+				D208D5C620F50A9600CD676C /* Frameworks */,
+				D208D5C720F50A9600CD676C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D208D5CB20F50A9600CD676C /* PBXTargetDependency */,
+			);
+			name = PlayingCardUITests;
+			productName = PlayingCardUITests;
+			productReference = D208D5C920F50A9600CD676C /* PlayingCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D208D5A220F50A9000CD676C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alvin Tan";
+				TargetAttributes = {
+					D208D5A920F50A9000CD676C = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D208D5BD20F50A9600CD676C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D208D5A920F50A9000CD676C;
+					};
+					D208D5C820F50A9600CD676C = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D208D5A920F50A9000CD676C;
+					};
+				};
+			};
+			buildConfigurationList = D208D5A520F50A9000CD676C /* Build configuration list for PBXProject "PlayingCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D208D5A120F50A9000CD676C;
+			productRefGroup = D208D5AB20F50A9000CD676C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D208D5A920F50A9000CD676C /* PlayingCard */,
+				D208D5BD20F50A9600CD676C /* PlayingCardTests */,
+				D208D5C820F50A9600CD676C /* PlayingCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D208D5A820F50A9000CD676C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D208D5B820F50A9600CD676C /* LaunchScreen.storyboard in Resources */,
+				D208D5B520F50A9500CD676C /* Assets.xcassets in Resources */,
+				D208D5B320F50A9000CD676C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D208D5BC20F50A9600CD676C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D208D5C720F50A9600CD676C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D208D5A620F50A9000CD676C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D208D5B020F50A9000CD676C /* ViewController.swift in Sources */,
+				D2E95CD220F572D800841B10 /* PlayingCardDeck.swift in Sources */,
+				D208D5DC20F50C2500CD676C /* PlayingCard.swift in Sources */,
+				D208D5AE20F50A9000CD676C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D208D5BA20F50A9600CD676C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D208D5C320F50A9600CD676C /* PlayingCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D208D5C520F50A9600CD676C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D208D5CE20F50A9600CD676C /* PlayingCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D208D5C020F50A9600CD676C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D208D5A920F50A9000CD676C /* PlayingCard */;
+			targetProxy = D208D5BF20F50A9600CD676C /* PBXContainerItemProxy */;
+		};
+		D208D5CB20F50A9600CD676C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D208D5A920F50A9000CD676C /* PlayingCard */;
+			targetProxy = D208D5CA20F50A9600CD676C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D208D5B120F50A9000CD676C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D208D5B220F50A9000CD676C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D208D5B620F50A9600CD676C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D208D5B720F50A9600CD676C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D208D5D020F50A9600CD676C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D208D5D120F50A9600CD676C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D208D5D320F50A9600CD676C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayingCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvintan.PlayingCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D208D5D420F50A9600CD676C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayingCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvintan.PlayingCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D208D5D620F50A9600CD676C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayingCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvintan.PlayingCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayingCard.app/PlayingCard";
+			};
+			name = Debug;
+		};
+		D208D5D720F50A9600CD676C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayingCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvintan.PlayingCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlayingCard.app/PlayingCard";
+			};
+			name = Release;
+		};
+		D208D5D920F50A9600CD676C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayingCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvintan.PlayingCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayingCard;
+			};
+			name = Debug;
+		};
+		D208D5DA20F50A9600CD676C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PlayingCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alvintan.PlayingCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlayingCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D208D5A520F50A9000CD676C /* Build configuration list for PBXProject "PlayingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D208D5D020F50A9600CD676C /* Debug */,
+				D208D5D120F50A9600CD676C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D208D5D220F50A9600CD676C /* Build configuration list for PBXNativeTarget "PlayingCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D208D5D320F50A9600CD676C /* Debug */,
+				D208D5D420F50A9600CD676C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D208D5D520F50A9600CD676C /* Build configuration list for PBXNativeTarget "PlayingCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D208D5D620F50A9600CD676C /* Debug */,
+				D208D5D720F50A9600CD676C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D208D5D820F50A9600CD676C /* Build configuration list for PBXNativeTarget "PlayingCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D208D5D920F50A9600CD676C /* Debug */,
+				D208D5DA20F50A9600CD676C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D208D5A220F50A9000CD676C /* Project object */;
+}
