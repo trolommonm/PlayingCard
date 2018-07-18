@@ -202,3 +202,9 @@ extension CGRect {
         return CGRect(origin: CGPoint(x: origin.x + width, y: origin.y), size: CGSize(width: width, height: size.height))
     }
 }
+
+extension CGFloat {
+    var arc4random: CGFloat {
+        return self * CGFloat(arc4random_uniform(UInt32.max)) / CGFloat(UInt32.max)
+    }
+}
